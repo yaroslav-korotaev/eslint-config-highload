@@ -1,13 +1,26 @@
 {
   "name": "eslint-config-highload",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint shared configuration",
-  "keywords": ["eslint", "eslintconfig", "highload"],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "highload"
+  ],
   "bugs": "https://github.com/yaroslav-korotaev/eslint-config-highload/issues",
   "license": "MIT",
   "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "index.js"
+  ],
   "repository": "yaroslav-korotaev/eslint-config-highload",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  },
   "peerDependencies": {
-    "eslint": ">= 3.15.0"
+    "eslint": "^4.17.0"
   }
 }
